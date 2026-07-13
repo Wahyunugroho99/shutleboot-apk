@@ -1,0 +1,6 @@
+{
+  "name": "OmniBot Control",
+  "description": "Bluetooth Classic controller application for the ESP32 OmniBot holonomic X-drive robot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

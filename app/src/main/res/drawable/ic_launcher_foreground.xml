@@ -1,0 +1,77 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer accent glowing ring -->
+    <path
+        android:strokeColor="#F97316"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M54,54m-44,0a44,44 0,1 1,88 0a44,44 0,1 1,-88 0" />
+
+    <!-- Center core hub -->
+    <path
+        android:fillColor="#1F222B"
+        android:pathData="M54,54m-18,0a18,18 0,1 1,36 0a18,18 0,1 1,-36 0" />
+    <path
+        android:strokeColor="#F97316"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000"
+        android:pathData="M54,54m-18,0a18,18 0,1 1,36 0a18,18 0,1 1,-36 0" />
+
+    <!-- 4 Omni Wheels on the corners (rotated 45deg) -->
+    <!-- Top Left Wheel -->
+    <path
+        android:strokeColor="#EAB308"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M27,27 L39,39" />
+    <!-- Top Right Wheel -->
+    <path
+        android:strokeColor="#EAB308"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M81,27 L69,39" />
+    <!-- Bottom Left Wheel -->
+    <path
+        android:strokeColor="#EAB308"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M27,81 L39,69" />
+    <!-- Bottom Right Wheel -->
+    <path
+        android:strokeColor="#EAB308"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M81,81 L69,69" />
+
+    <!-- Cross tracks connecting to wheels -->
+    <path
+        android:strokeColor="#F97316"
+        android:strokeWidth="3"
+        android:pathData="M33,33 L41,41" />
+    <path
+        android:strokeColor="#F97316"
+        android:strokeWidth="3"
+        android:pathData="M75,33 L67,41" />
+    <path
+        android:strokeColor="#F97316"
+        android:strokeWidth="3"
+        android:pathData="M33,81 L41,73" />
+    <path
+        android:strokeColor="#F97316"
+        android:strokeWidth="3"
+        android:pathData="M75,81 L67,73" />
+
+    <!-- Direction Arrow - Up -->
+    <path
+        android:strokeColor="#F97316"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M49,51 L54,46 L59,51 M54,46 L54,62" />
+        
+</vector>
